@@ -53,7 +53,7 @@ target_compile_definitions(ttnetwork_a PUBLIC TTDEBUG=0)
 target_compile_definitions(ttnetwork_a_dbg PUBLIC TTDEBUG=1)
 
 install(
-TARGETS ttnetwork_so ttnetwork_a tthttp_so tthttp_a ttnetwork_so_dbg ttnetwork_a_dbg tthttp_so_dbg tthttp_a_dbg
+TARGETS ttnetwork_so ttnetwork_a ttnetwork_so_dbg ttnetwork_a_dbg
 RUNTIME DESTINATION ${BINDIR}
 LIBRARY DESTINATION ${SODIR}
 ARCHIVE DESTINATION ${LIBDIR}
