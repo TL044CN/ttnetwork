@@ -1,6 +1,6 @@
 /// Network Library
-/// Author: Turbo Taube
-/// Datae:  19.05.2023
+/// Author: TL044CN
+/// Date:   19.05.2023
 
 #ifndef NETWORK_H
 #define NETWORK_H
